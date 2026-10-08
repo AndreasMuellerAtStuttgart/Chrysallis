@@ -2,7 +2,7 @@
 body {
     font-family: 'Georgia', serif;
     color: silver;
-    background-color: black;
+    background-color: #303338;
 }
 
 /* Header styles */
@@ -22,12 +22,20 @@ nav {
     padding: 0;
     margin: 0;
     display: flex;
+    color: silver;
 }
 
 .nav-links li {
     margin: 0;
 }
 
-.nav-links a:hover {
-    background-color: lightblue;
+.nav-links li a {
+    text-decoration: none;
+    color: silver;
+    margin: 1em;
+}
+
+.nav-links li a:hover {
+    background-color: darkblue;
+    box-shadow: 1em;
 }
