@@ -11,6 +11,13 @@ header {
     text-align: center;
 }
 
+p {
+    margin-left: 10em;
+    margin-right: 10em;
+    text-align: center;
+    margin-top: 2em;
+}
+
 nav {
     margin-top: 4rem;
     display: flex;
